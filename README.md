@@ -1,6 +1,14 @@
 # OmniCopter Project
 ## 项目简介
-本项目为全向无人机的飞控系统，基于Arduino系列单片机和JY901惯导模块实现六轴姿态与位置稳定。
+本项目为对ETHZ全向无人机项目的复现
+> D. Brescianini and R. D'Andrea, "Design, modeling and control of an omni-directional aerial vehicle," 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 3261-3266.
+
+本项目采用Arduino Mega2560单片机和JY901惯导模块实现姿态与位置控制。
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0321/172527_0fb2de19_5675321.png "屏幕截图.png")
+
+飞行视频见[https://www.yuque.com/xtdrone/other_research/omnicopter](https://www.yuque.com/xtdrone/other_research/omnicopter)
+
 ## 项目索引
 >### 应用层(APP)
  * OmniCopter.ino 项目应用主文件，利用API构件飞控应用
